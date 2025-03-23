@@ -53,15 +53,17 @@ function renderSSO()
         echo '<div style="display: flex; justify-content: space-around; align-items: center;">';
 
         foreach ($GLOBALS['ssoplugin'] as $plugin) {
-            $ssoUrl = $GLOBALS['plugins'][$plugin]->autUrl;
-            $buttonText = 'Login with ' . $GLOBALS['plugins'][$plugin]->settings['display_name']['value'];
+            if (isset($GLOBALS['plugins'][$plugin])) {
+                $ssoUrl = $GLOBALS['plugins'][$plugin]->autUrl;
+                $buttonText = 'Login with ' . $GLOBALS['plugins'][$plugin]->settings['display_name']['value'];
 
-            echo '<a href="?' . $ssoUrl . '" 
-            style="display: inline-block; padding: 8px 15px; background-color: #3c3c3c; color: #fff; 
-                   text-decoration: none; border-radius: 5px; font-size: 16px; text-align: center; 
-                   min-width: 120px;">
-            ' .  $buttonText . '
-          </a>';
+                echo '<a href="?' . $ssoUrl . '" 
+                    style="display: inline-block; padding: 8px 15px; background-color: #3c3c3c; color: #fff; 
+                           text-decoration: none; border-radius: 5px; font-size: 16px; text-align: center; 
+                           min-width: 120px;">
+                    ' .  $buttonText . '
+                  </a>';
+            }
         }
 
         echo '</div>';
