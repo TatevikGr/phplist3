@@ -54,8 +54,9 @@ function renderSSO()
 
         foreach ($GLOBALS['ssoplugin'] as $plugin) {
             if (isset($GLOBALS['plugins'][$plugin])) {
-                $ssoUrl = $GLOBALS['plugins'][$plugin]->autUrl;
-                $buttonText = 'Login with ' . $GLOBALS['plugins'][$plugin]->settings['display_name']['value'];
+                $pluginInstance = $GLOBALS['plugins'][$plugin];
+                $ssoUrl = $pluginInstance->autUrl;
+                $buttonText = 'Login with ' . getConfig($pluginInstance->name);
 
                 echo '<a href="?' . $ssoUrl . '" 
                     style="display: inline-block; padding: 8px 15px; background-color: #3c3c3c; color: #fff; 
