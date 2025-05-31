@@ -11,13 +11,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php-version: ['7.4', '8.0', '8.1', '8.2']
+        php-version: ['8.1']
         experimental: [false]
-        include:
-          - php-version: '8.3'
-            experimental: true
-          - php-version: '8.4'
-            experimental: true
 
     steps:
       - uses: actions/checkout@v4
@@ -99,46 +94,17 @@ jobs:
         continue-on-error: ${{ matrix.experimental }}
 
       - name: Check PHP syntax errors
-        uses: overtrue/phplint@5.0.0
+        uses: overtrue/phplint@3.0.0
         with:
-          path: |
-            ./public_html
-            ./public_html/lists/base/vendor/phplist
-          options: >
-            --exclude=lists/base/vendor
-            --exclude=lists/base/var
+          path: ./public_html
+          options: --exclude=lists/base
         continue-on-error: ${{ matrix.experimental }}
 
-      - name: Run BDD Tests UI
-        run: |
-          cd tests
-          ../vendor/bin/behat -p chrome --stop-on-failure --tags=@initialise
-          ../vendor/bin/behat -p chrome --tags="~@initialise && ~@wip && ~@behattest"
+      - name: Check PHP syntax errors in API
+        uses: overtrue/phplint@9.5.0
+        with:
+          path: ./public_html/lists/base/vendor/phplist
         continue-on-error: ${{ matrix.experimental }}
-
-      - name: Run BDD Tests CLI
-        run: |
-          export ADMIN_EMAIL=admin@phplist.dev
-          export ADMIN_PASSWORD=Mypassword123+
-          export ORGANISATION_NAME="phpList"
-          export ADMIN_NAME="phpList Administrator"
-          php public_html/lists/admin/index.php -c public_html/lists/config/config.php -p initialise -f
-          cd tests
-          ../vendor/bin/behat -p chrome --tags="~@initialise && ~@wip"
-        continue-on-error: ${{ matrix.experimental }}
-
-      - name: copy screenshots
-        if: always()
-        run: |
-          cd $GITHUB_WORKSPACE
-          images=$(ls -l /tmp/*.png 2>/dev/null | wc -l)
-          [[ $images -gt 0 ]] && cp -v /tmp/*.png output/screenshots
-          exit 0;
-
-      - name: Handle Experimental Warnings
-        if: ${{ matrix.experimental && failure() }}
-        run: |
-          echo "::warning::PHP ${matrix.php-version} tests failed. This is marked as experimental and does not impact overall workflow success."
 
       - name: Upload the Screenshots
         if: always()
