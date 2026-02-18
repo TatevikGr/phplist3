@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c465600e381048f108d8e407de6b8852",
+    "content-hash": "a4b14ef8ad407712ec90dd7527934bdc",
     "packages": [
         {
             "name": "bramley/phplist-plugin-captcha",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bramley/phplist-plugin-captcha.git",
-                "reference": "e6eb208a9bd454da2899718f8e81d532d1694d5e"
+                "reference": "af3e47e7e3bd17b59780d58c84151ec4c68ba538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bramley/phplist-plugin-captcha/zipball/e6eb208a9bd454da2899718f8e81d532d1694d5e",
-                "reference": "e6eb208a9bd454da2899718f8e81d532d1694d5e",
+                "url": "https://api.github.com/repos/bramley/phplist-plugin-captcha/zipball/af3e47e7e3bd17b59780d58c84151ec4c68ba538",
+                "reference": "af3e47e7e3bd17b59780d58c84151ec4c68ba538",
                 "shasum": ""
             },
             "default-branch": true,
@@ -35,10 +35,10 @@
                 "phplist"
             ],
             "support": {
-                "source": "https://github.com/bramley/phplist-plugin-captcha/tree/2.4.0",
+                "source": "https://github.com/bramley/phplist-plugin-captcha/tree/2.4.1",
                 "issues": "https://github.com/bramley/phplist-plugin-captcha/issues"
             },
-            "time": "2022-08-10T09:06:38+00:00"
+            "time": "2025-07-11T16:00:40+00:00"
         },
         {
             "name": "bramley/phplist-plugin-ckeditor",
@@ -79,13 +79,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bramley/phplist-plugin-common.git",
-                "reference": "1241ce37e8e6583b30e3eda8f93da57f7746d445"
+                "url": "https://github.com/TatevikGr/phplist-plugin-common.git",
+                "reference": "e3d1e02a6a95c86557fabaca648e34fa7547e707"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bramley/phplist-plugin-common/zipball/1241ce37e8e6583b30e3eda8f93da57f7746d445",
-                "reference": "1241ce37e8e6583b30e3eda8f93da57f7746d445",
+                "url": "https://api.github.com/repos/TatevikGr/phplist-plugin-common/zipball/e3d1e02a6a95c86557fabaca648e34fa7547e707",
+                "reference": "e3d1e02a6a95c86557fabaca648e34fa7547e707",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 "jmathai/php-multi-curl": "dev-master",
                 "katzgrau/klogger": "1.2.2",
                 "pelago/emogrifier": "~7.0",
-                "psr/container": "1.0.0",
+                "psr/container": "^1.1 || ^2.0",
                 "psr/log": "1.0.0",
                 "setasign/tfpdf": "1.33",
                 "symfony/css-selector": "^4.4.23",
@@ -143,10 +143,9 @@
                 "phplist"
             ],
             "support": {
-                "source": "https://github.com/bramley/phplist-plugin-common/tree/3.34.2",
-                "issues": "https://github.com/bramley/phplist-plugin-common/issues"
+                "source": "https://github.com/TatevikGr/phplist-plugin-common/tree/master"
             },
-            "time": "2025-05-27T09:22:16+00:00"
+            "time": "2026-02-18T11:33:15+00:00"
         },
         {
             "name": "bramley/phplist-plugin-imap2",
@@ -154,12 +153,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bramley/phplist-plugin-imap2.git",
-                "reference": "72703f4834bc034b742d03a7d0cca9e07de027c4"
+                "reference": "d39bbd4ccca1f09a9a6f5530da7050a4ff277f86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bramley/phplist-plugin-imap2/zipball/72703f4834bc034b742d03a7d0cca9e07de027c4",
-                "reference": "72703f4834bc034b742d03a7d0cca9e07de027c4",
+                "url": "https://api.github.com/repos/bramley/phplist-plugin-imap2/zipball/d39bbd4ccca1f09a9a6f5530da7050a4ff277f86",
+                "reference": "d39bbd4ccca1f09a9a6f5530da7050a4ff277f86",
                 "shasum": ""
             },
             "require": {
@@ -186,10 +185,10 @@
                 "phplist"
             ],
             "support": {
-                "source": "https://github.com/bramley/phplist-plugin-imap2/tree/1.0.4",
+                "source": "https://github.com/bramley/phplist-plugin-imap2/tree/1.1.1",
                 "issues": "https://github.com/bramley/phplist-plugin-imap2/issues"
             },
-            "time": "2025-05-28T11:59:07+00:00"
+            "time": "2025-07-07T16:57:59+00:00"
         },
         {
             "name": "bramley/phplist-plugin-segment",
@@ -1257,16 +1256,16 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "v8.8.0",
+            "version": "v8.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
-                "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740"
+                "reference": "d8e916507b88e389e26d4ab03c904a082aa66bb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/3de493bdddfd1f051249af725c7e0d2c38fed740",
-                "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740",
+                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/d8e916507b88e389e26d4ab03c904a082aa66bb9",
+                "reference": "d8e916507b88e389e26d4ab03c904a082aa66bb9",
                 "shasum": ""
             },
             "require": {
@@ -1274,7 +1273,8 @@
                 "php": "^5.6.20 || ^7.0.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41"
+                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41",
+                "rawr/cross-data-providers": "^2.0.0"
             },
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
@@ -1316,9 +1316,9 @@
             ],
             "support": {
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
-                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.8.0"
+                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.9.0"
             },
-            "time": "2025-03-23T17:59:05+00:00"
+            "time": "2025-07-11T13:20:48+00:00"
         },
         {
             "name": "setasign/tfpdf",
@@ -1494,7 +1494,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -1554,7 +1554,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -1563,6 +1563,10 @@
                 },
                 {
                     "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
@@ -1578,12 +1582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TatevikGr/phplist-plugin-ckeditor5.git",
-                "reference": "1004ad62b94adf7ff096b5ce323cb81dab6e7c29"
+                "reference": "1ed5ab7c7d0fd3b25bc24e8bc4603eb2f4109d02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TatevikGr/phplist-plugin-ckeditor5/zipball/1004ad62b94adf7ff096b5ce323cb81dab6e7c29",
-                "reference": "1004ad62b94adf7ff096b5ce323cb81dab6e7c29",
+                "url": "https://api.github.com/repos/TatevikGr/phplist-plugin-ckeditor5/zipball/1ed5ab7c7d0fd3b25bc24e8bc4603eb2f4109d02",
+                "reference": "1ed5ab7c7d0fd3b25bc24e8bc4603eb2f4109d02",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1604,7 +1608,7 @@
                 "source": "https://github.com/TatevikGr/phplist-plugin-ckeditor5/tree/master",
                 "issues": "https://github.com/TatevikGr/phplist-plugin-ckeditor5/issues"
             },
-            "time": "2025-07-02T02:47:39+00:00"
+            "time": "2025-09-09T07:59:38+00:00"
         }
     ],
     "packages-dev": [
@@ -1692,25 +1696,25 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.14.0",
+            "version": "v4.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "34c9b59c59355a7b4c53b9f041c8dbd1c8acc3b4"
+                "reference": "e26037937dfd48528746764dd870bc5d0836665f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/34c9b59c59355a7b4c53b9f041c8dbd1c8acc3b4",
-                "reference": "34c9b59c59355a7b4c53b9f041c8dbd1c8acc3b4",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/e26037937dfd48528746764dd870bc5d0836665f",
+                "reference": "e26037937dfd48528746764dd870bc5d0836665f",
                 "shasum": ""
             },
             "require": {
                 "composer-runtime-api": "^2.2",
-                "php": "8.1.* || 8.2.* || 8.3.* || 8.4.*"
+                "php": ">=8.1 <8.6"
             },
             "require-dev": {
-                "cucumber/gherkin-monorepo": "dev-gherkin-v32.1.1",
-                "friendsofphp/php-cs-fixer": "^3.65",
+                "cucumber/gherkin-monorepo": "dev-gherkin-v37.0.0",
+                "friendsofphp/php-cs-fixer": "^3.77",
                 "mikey179/vfsstream": "^1.6",
                 "phpstan/extension-installer": "^1",
                 "phpstan/phpstan": "^2",
@@ -1755,9 +1759,23 @@
             ],
             "support": {
                 "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/v4.14.0"
+                "source": "https://github.com/Behat/Gherkin/tree/v4.16.1"
             },
-            "time": "2025-05-23T15:06:40+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/acoulton",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/carlos-granados",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/stof",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-08T16:12:58+00:00"
         },
         {
             "name": "behat/mink-selenium2-driver",
@@ -2103,6 +2121,7 @@
             "support": {
                 "source": "https://github.com/FriendsOfBehat/Mink/tree/v1.11.0"
             },
+            "abandoned": "behat/mink",
             "time": "2024-02-06T13:17:10+00:00"
         },
         {
@@ -2235,16 +2254,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16"
+                "reference": "21dc724a0583619cd1652f673303492272778051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
-                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
+                "reference": "21dc724a0583619cd1652f673303492272778051",
                 "shasum": ""
             },
             "require": {
@@ -2260,7 +2279,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
-                "phpunit/phpunit": "^8.5.39 || ^9.6.20"
+                "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -2331,7 +2350,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.7.1"
+                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
             },
             "funding": [
                 {
@@ -2347,20 +2366,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-27T12:30:47+00:00"
+            "time": "2025-08-23T21:21:41+00:00"
         },
         {
             "name": "instaclick/php-webdriver",
-            "version": "1.4.19",
+            "version": "1.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/instaclick/php-webdriver.git",
-                "reference": "3b2a2ddc4e0a690cc691d7e5952964cc4b9538b1"
+                "reference": "981db0846ff4ac5be0301d609e36e2f023e74301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/3b2a2ddc4e0a690cc691d7e5952964cc4b9538b1",
-                "reference": "3b2a2ddc4e0a690cc691d7e5952964cc4b9538b1",
+                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/981db0846ff4ac5be0301d609e36e2f023e74301",
+                "reference": "981db0846ff4ac5be0301d609e36e2f023e74301",
                 "shasum": ""
             },
             "require": {
@@ -2408,9 +2427,9 @@
             ],
             "support": {
                 "issues": "https://github.com/instaclick/php-webdriver/issues",
-                "source": "https://github.com/instaclick/php-webdriver/tree/1.4.19"
+                "source": "https://github.com/instaclick/php-webdriver/tree/1.4.20"
             },
-            "time": "2024-03-19T01:58:53+00:00"
+            "time": "2025-12-04T11:20:11+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -2605,6 +2624,7 @@
                 "issues": "https://github.com/sveneisenschmidt/selenium-server-standalone/issues",
                 "source": "https://github.com/sveneisenschmidt/selenium-server-standalone/tree/master"
             },
+            "abandoned": true,
             "time": "2016-07-01T14:16:52+00:00"
         },
         {
@@ -3224,7 +3244,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -3283,7 +3303,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -3295,6 +3315,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
@@ -3303,7 +3327,7 @@
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
@@ -3363,7 +3387,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -3375,6 +3399,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
@@ -3383,7 +3411,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -3444,7 +3472,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -3456,6 +3484,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
@@ -3464,7 +3496,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -3520,7 +3552,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -3532,6 +3564,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
@@ -3540,7 +3576,7 @@
         },
         {
             "name": "symfony/polyfill-php81",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php81.git",
@@ -3596,7 +3632,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php81/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -3605,6 +3641,10 @@
                 },
                 {
                     "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
@@ -4172,7 +4212,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.2"
+        "php": ">=7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"

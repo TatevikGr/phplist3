@@ -48,7 +48,7 @@
       },
       {
             "type": "vcs",
-            "url": "https://github.com/bramley/phplist-plugin-common.git"
+            "url": "https://github.com/tatevikgr/phplist-plugin-common.git"
       },
       {
             "type": "vcs",
@@ -122,13 +122,14 @@
     ]
   },
   "require": {
-    "php": ">=8.2",
+    "php": ">=7.3",
     "davidbarratt/custom-installer": "@stable",
     "phplist/phplist-ui-bootlist": "@stable",
     "phplist/phplist-lan-help": "@stable",
     "phplist/phplist-lan-info": "@stable",
     "phplist/phplist-lan-texts": "@stable",
     "phplist/updater": "@stable",
+    "psr/container": "^1.1",
     "phplist/phplist-plugin-invite": "dev-master",
     "phplist/phplist-plugin-saml2": "dev-main",
     "michield/phplist-plugin-campaignslicer": "dev-master",
