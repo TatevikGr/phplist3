@@ -97,10 +97,6 @@
       {
         "type": "vcs",
         "url": "https://github.com/tatevikgr/phplist-plugin-ckeditor5.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/phpList/phplist-plugin-saml2.git"
       }
     ],
   "extra": {
@@ -131,7 +127,6 @@
     "phplist/updater": "@stable",
     "psr/container": "^1.1",
     "phplist/phplist-plugin-invite": "dev-master",
-    "phplist/phplist-plugin-saml2": "dev-main",
     "michield/phplist-plugin-campaignslicer": "dev-master",
     "michield/phplist-plugin-dateplaceholder": "dev-master",
     "michield/phplist-plugin-disposablemailblock": "dev-master",
