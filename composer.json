@@ -129,7 +129,6 @@
     "phplist/phplist-lan-info": "@stable",
     "phplist/phplist-lan-texts": "@stable",
     "phplist/updater": "@stable",
-    "psr/container": "^1.1",
     "phplist/phplist-plugin-invite": "dev-master",
     "michield/phplist-plugin-campaignslicer": "dev-master",
     "michield/phplist-plugin-dateplaceholder": "dev-master",
